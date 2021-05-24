@@ -88,9 +88,8 @@ class Config {
 
   // 【重要】 生产环境userSig请放在服务端生产。
   static const String key = "";
-  static const String XG_ACCESS_ID = "1500015941"; // 腾讯云TPNS控制台注册所得ACCESS_ID
-  static const String XG_ACCESS_KEY =
-      "A7CH63Q4QBZB"; // 腾讯云TPNS控制台注册所得ACCESS_KEY
+  static const String XG_ACCESS_ID = ""; // 腾讯云TPNS控制台注册所得ACCESS_ID
+  static const String XG_ACCESS_KEY = ""; // 腾讯云TPNS控制台注册所得ACCESS_KEY
 
   static final List<Map<String, dynamic>> apiData = [
     {
