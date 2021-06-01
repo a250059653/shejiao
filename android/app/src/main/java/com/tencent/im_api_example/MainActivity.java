@@ -1,4 +1,4 @@
-package com.example.im_api_example;
+package com.tencent.im_api_example;
 
 import io.flutter.embedding.android.FlutterActivity;
 

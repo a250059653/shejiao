@@ -10,7 +10,7 @@
         "client_info": {
           "mobilesdk_app_id": "1:791251993264:android:c2fafda64119338e",
           "android_client_info": {
-            "package_name": "com.example.im_api_example"
+            "package_name": "com.tencent.im_api_example"
           }
         },
         "oauth_client": [

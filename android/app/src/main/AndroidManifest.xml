@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.im_api_example">
+    package="com.tencent.im_api_example">
    <application
         android:label="im_api_example"
         tools:replace="android:label"
@@ -49,9 +49,9 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />  
     <!-- ********华为推送权限设置******** -->
     <permission
-        android:name="com.example.im_api_example.permission.PROCESS_PUSH_MSG"
+        android:name="com.tencent.im_api_example.permission.PROCESS_PUSH_MSG"
         android:protectionLevel="signatureOrSystem" />
 
-    <uses-permission android:name="com.example.im_api_example.permission.PROCESS_PUSH_MSG" />
+    <uses-permission android:name="com.tencent.im_api_example.permission.PROCESS_PUSH_MSG" />
     
 </manifest>

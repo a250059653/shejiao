@@ -87,7 +87,11 @@ class SendSoundMessageState extends State<SendSoundMessage> {
     String path = "$tempPath/sendSoundMessage_$random.mp3";
     File soundFile = new File(path);
     soundFile.createSync();
-    await Record.start(path: path);
+    try {
+      await Record.start(path: path);
+    } catch (err) {
+      print(err);
+    }
     setState(() {
       isRecording = true;
       soundPath = path;
